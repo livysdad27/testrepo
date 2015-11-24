@@ -6,6 +6,7 @@ virtualenf:
 before_install:  
   - "sudo apt-get install python-pygame -qq"
   - "sudo apt-get install mercurial -qq"
+  - "sudo apt-get install wine -qq"
 install:  
   - "pip install -r requirements.txt"
 script: 
