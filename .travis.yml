@@ -4,6 +4,7 @@ python:
 virtualenf:
   system_site_packages: true
 before_install:  
+  - "sudo apt-get update"
   - "sudo apt-get install python-pygame -qq"
   - "sudo apt-get install mercurial -qq"
   - "sudo apt-get install wine -qq"
